@@ -1,0 +1,82 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NextFEMplugin
+</name>
+</assembly>
+<members>
+<member name="P:NextFEMplugin.IPlugin.PluginName">
+	<summary>
+ Name of the plugin
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:NextFEMplugin.IPlugin.PluginAuthor">
+	<summary>
+ Author of the plugin
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:NextFEMplugin.IPlugin.LaunchMe(System.IntPtr)">
+	<summary>
+ Load and show the plugin
+ </summary>
+	<remarks></remarks>
+</member><member name="E:NextFEMplugin.IPlugin.undoCall">
+	<summary>
+ Undo event
+ </summary>
+	<param name="undoProperty"></param>
+	<remarks></remarks>
+</member><member name="P:NextFEMplugin.IPlugin.API">
+	<summary>
+ API instance to be used in the plugin
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:NextFEMplugin.IPlugin.currentLoadcase">
+	<summary>
+ Set or get the current loadcase to be shown in viewport
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:NextFEMplugin.IPlugin.currentTime">
+	<summary>
+ Set or get the current loadcase time to be shown in viewport
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:NextFEMplugin.IPlugin.iconFile">
+	<summary>
+ Set the icon file name
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:NextFEMplugin.IPlugin">
+	<summary>
+ Plugin interface for NextFEM Designer
+ </summary>
+	<remarks></remarks>
+</member><member name="P:NextFEMplugin.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:NextFEMplugin.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:NextFEMplugin.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
